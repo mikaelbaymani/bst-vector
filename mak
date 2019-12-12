@@ -3,7 +3,7 @@
 if [[ "$#" -eq 1 && "$1" -eq "clean" ]]
 then
 
-    rm -f *.o *.a
+    rm -f *.o *.a unit-test
 
 else
 
